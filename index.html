@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RemindME</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="title-bar">
+      <h1>RemindME</h1>
+    </header>
+
+    <div class="reminder-box">
+      <p id="current-reminder">No reminders yet.</p>
+    </div>
+
+    <div class="navigation">
+      <button id="prev-btn" class="nav-btn"><<</button>
+      <span id="reminder-counter">0 / 0</span>
+      <button id="next-btn" class="nav-btn">>></button>
+    </div>
+
+    <div class="add-reminder">
+      <input type="text" id="reminder-input" placeholder="Enter your reminder...">
+      <button id="add-btn">Add Reminder</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
