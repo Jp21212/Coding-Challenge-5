@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 400px;
-  background-color: purple;
+  background-color: red;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-btn {
-  background-color: yellow;
+  background-color: orange;
   border: none;
   padding: 10px 20px;
   font-size: 1.5em;
@@ -76,7 +76,7 @@ body {
 }
 
 .add-btn {
-  background-color: yellow;
+  background-color: orange;
   border: none;
   padding: 10px 20px;
   font-size: 1em;
@@ -85,5 +85,5 @@ body {
 }
 
 .add-btn:hover {
-  background-color: #f2c700;
+  background-color: orange;
 }
