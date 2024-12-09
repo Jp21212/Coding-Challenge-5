@@ -22,9 +22,9 @@ addBtn.addEventListener("click", () => {
   const newReminder = reminderInput.value.trim();
   if (newReminder) {
     reminders.push(newReminder);
-    currentIndex = reminders.length - 1; // Set current reminder to the latest
+    currentIndex = reminders.length - 1;
     updateReminder();
-    reminderInput.value = ""; // Clear input field
+    reminderInput.value = ""; 
   }
 });
 
